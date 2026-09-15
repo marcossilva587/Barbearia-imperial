@@ -7,17 +7,17 @@ feita para converter visitantes em agendamentos pelo WhatsApp.
 
 ```
 barbearia-imperial/
-├── index.html          → toda a estrutura e o conteúdo da página
-├── css/
-│   └── style.css        → todo o estilo visual
-├── js/
-│   └── main.js           → configurações (WhatsApp, Instagram, endereço) e interações
+├── index.html    → toda a estrutura e o conteúdo da página
+├── style.css     → todo o estilo visual
+├── main.js       → configurações (WhatsApp, Instagram, endereço) e interações
 └── README.md
 ```
 
+Todos os arquivos ficam juntos, na raiz do projeto — não há subpastas.
+
 ## 1. Antes de publicar: edite os dados reais
 
-Abra o arquivo **`js/main.js`** e edite apenas o bloco `CONFIG` no topo do arquivo:
+Abra o arquivo **`main.js`** e edite apenas o bloco `CONFIG` no topo do arquivo:
 
 ```js
 const CONFIG = {
