@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbearia Imperial — Corte, barba e tradição em Balneário Camboriú</title>
+  <meta name="description" content="Barbearia Imperial: cortes clássicos e modernos, barba feita com precisão e atendimento com hora marcada. Agende agora pelo WhatsApp.">
+  <meta name="keywords" content="barbearia, corte masculino, barba, barbearia Balneário Camboriú, agendamento whatsapp">
+  <meta name="author" content="Barbearia Imperial">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Barbearia Imperial — Tradição e precisão em cada corte">
+  <meta property="og:description" content="Cortes clássicos e modernos, barba bem feita e atendimento com hora marcada. Agende pelo WhatsApp.">
+  <meta property="og:image" content="/assets/og-image.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2315110D'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23C9A35B' text-anchor='middle'%3EBI%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sprite de ícones (reutilizados via <use>) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="icon-scissors" viewBox="0 0 24 24"><path d="M6 6a2.5 2.5 0 1 1 3.6-1.8L20 15M6 18a2.5 2.5 0 1 0 3.6 1.8L20 9M9.5 10.8 12 12M9.5 13.2 20 15" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="icon-razor" viewBox="0 0 24 24"><path d="M4 12h9l4-4v8l-4-4M4 12v0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 8h2.5v8H17" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="icon-combo" viewBox="0 0 24 24"><path d="M4 5a2 2 0 1 1 2.8-1.8L17 13M4 19a2 2 0 1 0 2.8 1.8L17 11M7.8 9.2 10 11M7.8 14.8 20 3M20 21l-6-6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="icon-kid" viewBox="0 0 24 24"><path d="M12 3v3M9 4.5 12 6l3-1.5M6 14c0-4 2.7-6.5 6-6.5s6 2.5 6 6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 14h14v2a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-2Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M9 21v-2M15 21v-2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+      <symbol id="icon-medal" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M9 13.5 7.5 21 12 18.5 16.5 21 15 13.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></symbol>
+      <symbol id="icon-breeze" viewBox="0 0 24 24"><path d="M3 8h11a2.5 2.5 0 1 0-2.5-2.5M3 12h15a2.5 2.5 0 1 1-2.5 2.5M3 16h9a2 2 0 1 1-2 2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="icon-flask" viewBox="0 0 24 24"><path d="M10 3h4M10.5 3v5.5L5.8 17a2 2 0 0 0 1.8 3h8.8a2 2 0 0 0 1.8-3l-4.7-8.5V3" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M7.5 15h9" fill="none" stroke="currentColor" stroke-width="1.4"/></symbol>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M17.6 6.3A8 8 0 0 0 4.2 16L3 21l5.2-1.2A8 8 0 1 0 17.6 6.3Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8.5 8.8c.2-.6.5-.6.9-.6h.6c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.2-.1.3 0 .5.4.8 1.5 1.9 2.3 2.3.2.1.3.1.5 0l.6-.5c.2-.1.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.6c0 .4 0 .7-.6.9-.7.3-1.5.3-2.6-.2-1.9-.8-3.5-2.4-4.3-4.3-.5-1.1-.5-1.9-.2-2.6Z" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.4 7-12A7 7 0 0 0 5 9c0 5.6 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.3" fill="none" stroke="currentColor" stroke-width="1.4"/></symbol>
+      <symbol id="icon-quote" viewBox="0 0 32 24"><path d="M4 24V14.8C4 8.5 7.6 3.8 13.4 1l1.8 3.4C11.3 6.3 9.6 8.9 9.4 12h4.9v12H4Zm17.7 0V14.8c0-6.3 3.6-11 9.4-13.8l1.8 3.4C29 6.3 27.3 8.9 27.1 12H32v12H21.7Z" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="topo">
+    <div class="site-header__inner">
+      <a href="#topo" class="brand">
+        <span class="brand__crest" aria-hidden="true">BI</span>
+        <span class="brand__name">Barbearia Imperial</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#localizacao">Localização</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="btn btn--gold btn--sm" data-whatsapp-btn href="#">
+          <svg width="16" height="16"><use href="#icon-whatsapp"/></svg>
+          Agendar
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
+          <svg width="22" height="22"><use href="#icon-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero__stripe" aria-hidden="true"></div>
+      <div class="hero__content">
+        <div class="hero__crest" data-reveal>
+          <span>BI</span>
+        </div>
+        <p class="hero__wordmark" data-reveal>BARBEARIA IMPERIAL</p>
+        <h1 class="hero__title" data-reveal>Tradição que se vê<br>no corte.</h1>
+        <p class="hero__subtitle" data-reveal>
+          Cortes clássicos e contemporâneos, barba feita com precisão de navalha
+          e um atendimento que respeita o seu tempo — hora marcada, sem filas.
+        </p>
+        <div class="hero__actions" data-reveal>
+          <a class="btn btn--gold btn--lg" data-whatsapp-btn href="#">
+            <svg width="18" height="18"><use href="#icon-whatsapp"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#servicos">Ver serviços e preços</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <span class="stripe-mark" aria-hidden="true"></span>
+          <h2 class="section__title">Serviços</h2>
+          <p class="section__lede">Preço fechado, sem surpresa. Escolha o serviço e agende na hora.</p>
+        </div>
+
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <svg class="menu-list__icon" width="26" height="26"><use href="#icon-scissors"/></svg>
+            <div class="menu-list__text">
+              <span class="menu-list__name">Corte masculino</span>
+              <span class="menu-list__desc">Acabamento na tesoura e máquina, ajustado ao seu rosto</span>
+            </div>
+            <span class="menu-list__leader" aria-hidden="true"></span>
+            <span class="menu-list__price">R$ 40</span>
+            <a class="menu-list__book" data-whatsapp-btn data-service="Corte masculino" href="#">Agendar</a>
+          </li>
+
+          <li class="menu-list__item">
+            <svg class="menu-list__icon" width="26" height="26"><use href="#icon-razor"/></svg>
+            <div class="menu-list__text">
+              <span class="menu-list__name">Barba</span>
+              <span class="menu-list__desc">Desenho, toalha quente e finalização com navalha</span>
+            </div>
+            <span class="menu-list__leader" aria-hidden="true"></span>
+            <span class="menu-list__price">R$ 30</span>
+            <a class="menu-list__book" data-whatsapp-btn data-service="Barba" href="#">Agendar</a>
+          </li>
+
+          <li class="menu-list__item menu-list__item--highlight">
+            <svg class="menu-list__icon" width="26" height="26"><use href="#icon-combo"/></svg>
+            <div class="menu-list__text">
+              <span class="menu-list__name">Corte + barba</span>
+              <span class="menu-list__desc">O combo completo, com o melhor custo-benefício</span>
+            </div>
+            <span class="menu-list__leader" aria-hidden="true"></span>
+            <span class="menu-list__price">R$ 65</span>
+            <a class="menu-list__book" data-whatsapp-btn data-service="Corte + barba" href="#">Agendar</a>
+          </li>
+
+          <li class="menu-list__item">
+            <svg class="menu-list__icon" width="26" height="26"><use href="#icon-kid"/></svg>
+            <div class="menu-list__text">
+              <span class="menu-list__name">Corte infantil</span>
+              <span class="menu-list__desc">Paciência e capricho para os clientes mais novos</span>
+            </div>
+            <span class="menu-list__leader" aria-hidden="true"></span>
+            <span class="menu-list__price">R$ 35</span>
+            <a class="menu-list__book" data-whatsapp-btn data-service="Corte infantil" href="#">Agendar</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== DIFERENCIAIS ===== -->
+    <section class="section section--alt" id="diferenciais">
+      <div class="container">
+        <div class="section__head">
+          <span class="stripe-mark" aria-hidden="true"></span>
+          <h2 class="section__title">Por que a Imperial</h2>
+          <p class="section__lede">Detalhes que fazem diferença antes, durante e depois do corte.</p>
+        </div>
+
+        <div class="pillars">
+          <div class="pillar">
+            <svg class="pillar__icon" width="30" height="30"><use href="#icon-medal"/></svg>
+            <h3 class="pillar__title">Profissionais experientes</h3>
+            <p class="pillar__text">Barbeiros com anos de bancada, treinados nas técnicas clássicas e nas tendências atuais.</p>
+          </div>
+          <div class="pillar">
+            <svg class="pillar__icon" width="30" height="30"><use href="#icon-breeze"/></svg>
+            <h3 class="pillar__title">Ambiente climatizado</h3>
+            <p class="pillar__text">Espaço confortável em qualquer estação, pensado para você relaxar durante o atendimento.</p>
+          </div>
+          <div class="pillar">
+            <svg class="pillar__icon" width="30" height="30"><use href="#icon-clock"/></svg>
+            <h3 class="pillar__title">Atendimento com hora marcada</h3>
+            <p class="pillar__text">Sem espera. Você agenda pelo WhatsApp e é atendido no horário combinado.</p>
+          </div>
+          <div class="pillar">
+            <svg class="pillar__icon" width="30" height="30"><use href="#icon-flask"/></svg>
+            <h3 class="pillar__title">Produtos profissionais</h3>
+            <p class="pillar__text">Linhas selecionadas de cuidado capilar e de barba, aplicadas por quem entende do assunto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERIA ===== -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section__head">
+          <span class="stripe-mark" aria-hidden="true"></span>
+          <h2 class="section__title">Galeria</h2>
+          <p class="section__lede">Um pouco do ambiente e do trabalho da casa.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item gallery__item--tall">
+            <svg width="34" height="34"><use href="#icon-scissors"/></svg>
+            <figcaption>Acabamento na tesoura</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <svg width="34" height="34"><use href="#icon-razor"/></svg>
+            <figcaption>Barba na navalha</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <svg width="34" height="34"><use href="#icon-breeze"/></svg>
+            <figcaption>Ambiente climatizado</figcaption>
+          </figure>
+          <figure class="gallery__item gallery__item--wide">
+            <svg width="34" height="34"><use href="#icon-flask"/></svg>
+            <figcaption>Produtos profissionais</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <svg width="34" height="34"><use href="#icon-medal"/></svg>
+            <figcaption>Time experiente</figcaption>
+          </figure>
+          <figure class="gallery__item gallery__item--tall">
+            <svg width="34" height="34"><use href="#icon-kid"/></svg>
+            <figcaption>Corte infantil</figcaption>
+          </figure>
+        </div>
+        <p class="gallery__note">* Substitua os quadros acima pelas fotos reais da barbearia — veja o README.</p>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section section--alt" id="depoimentos">
+      <div class="container">
+        <div class="section__head">
+          <span class="stripe-mark" aria-hidden="true"></span>
+          <h2 class="section__title">Quem passou pela cadeira</h2>
+        </div>
+
+        <div class="testimonials" id="testimonials">
+          <div class="testimonials__track" id="testimonialsTrack">
+            <blockquote class="testimonial">
+              <svg class="testimonial__quote" width="30" height="22"><use href="#icon-quote"/></svg>
+              <p class="testimonial__text">Troquei de barbearia três vezes até achar a Imperial. Hoje não confio meu cabelo pra mais ninguém.</p>
+              <footer class="testimonial__author">Rafael Mendes <span>— cliente há 2 anos</span></footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <svg class="testimonial__quote" width="30" height="22"><use href="#icon-quote"/></svg>
+              <p class="testimonial__text">Marco horário pelo WhatsApp na hora do almoço e já saio de lá no fim do expediente. Zero espera.</p>
+              <footer class="testimonial__author">Eduardo Lima <span>— cliente há 8 meses</span></footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <svg class="testimonial__quote" width="30" height="22"><use href="#icon-quote"/></svg>
+              <p class="testimonial__text">Levei meu filho pela primeira vez e o cuidado com ele foi tão bom quanto o corte que eu recebi.</p>
+              <footer class="testimonial__author">Thiago Andrade <span>— cliente há 1 ano</span></footer>
+            </blockquote>
+          </div>
+          <div class="testimonials__controls">
+            <button class="testimonials__btn" id="testPrev" aria-label="Depoimento anterior">
+              <svg width="18" height="18" style="transform:rotate(180deg)"><use href="#icon-arrow"/></svg>
+            </button>
+            <div class="testimonials__dots" id="testimonialsDots"></div>
+            <button class="testimonials__btn" id="testNext" aria-label="Próximo depoimento">
+              <svg width="18" height="18"><use href="#icon-arrow"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOCALIZAÇÃO ===== -->
+    <section class="section" id="localizacao">
+      <div class="container">
+        <div class="section__head">
+          <span class="stripe-mark" aria-hidden="true"></span>
+          <h2 class="section__title">Onde estamos</h2>
+        </div>
+
+        <div class="location">
+          <div class="location__info">
+            <div class="location__row">
+              <svg width="22" height="22"><use href="#icon-pin"/></svg>
+              <div>
+                <span class="location__label">Endereço</span>
+                <p>Av. das Palmeiras, 482 — Centro<br>Balneário Camboriú - SC, 88330-000</p>
+              </div>
+            </div>
+            <div class="location__row">
+              <svg width="22" height="22"><use href="#icon-clock"/></svg>
+              <div>
+                <span class="location__label">Horário de funcionamento</span>
+                <p>Segunda a sábado: 09h às 20h<br>Domingo: fechado</p>
+              </div>
+            </div>
+            <a class="btn btn--gold" id="mapsBtn" href="#" target="_blank" rel="noopener">
+              Abrir no Google Maps
+              <svg width="16" height="16"><use href="#icon-arrow"/></svg>
+            </a>
+          </div>
+
+          <div class="location__map">
+            <iframe
+              id="mapsFrame"
+              title="Localização da Barbearia Imperial no Google Maps"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="cta-final">
+      <div class="cta-final__stripe" aria-hidden="true"></div>
+      <div class="container cta-final__inner">
+        <h2>Agende seu horário agora</h2>
+        <p>Poucos minutos pelo WhatsApp e sua vaga está garantida.</p>
+        <a class="btn btn--cream btn--lg" data-whatsapp-btn href="#">
+          <svg width="18" height="18"><use href="#icon-whatsapp"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <span class="brand__crest brand__crest--sm" aria-hidden="true">BI</span>
+        <p>Barbearia Imperial</p>
+      </div>
+
+      <div class="site-footer__col">
+        <span class="site-footer__label">Contato</span>
+        <a data-whatsapp-btn href="#"><svg width="16" height="16"><use href="#icon-whatsapp"/></svg> WhatsApp</a>
+        <a id="instagramLink" href="#" target="_blank" rel="noopener"><svg width="16" height="16"><use href="#icon-instagram"/></svg> @barbeariaimperial</a>
+      </div>
+
+      <div class="site-footer__col">
+        <span class="site-footer__label">Endereço</span>
+        <p>Av. das Palmeiras, 482 — Centro<br>Balneário Camboriú - SC</p>
+      </div>
+
+      <div class="site-footer__col">
+        <span class="site-footer__label">Horário</span>
+        <p>Seg a sáb: 09h às 20h<br>Dom: fechado</p>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; <span id="year"></span> Barbearia Imperial. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-fab" data-whatsapp-btn href="#" aria-label="Agendar pelo WhatsApp">
+    <svg width="26" height="26"><use href="#icon-whatsapp"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
